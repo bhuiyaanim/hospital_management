@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1352F69D-012E-4073-B664-1C3F64D3AAFE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HospitalManagementSystem</RootNamespace>
+    <AssemblyName>HospitalManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountantCreateInvociceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountantCreateInvociceForm.Designer.cs">
+      <DependentUpon>accountantCreateInvociceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accountantform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accountantform.Designer.cs">
+      <DependentUpon>Accountantform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountantInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountantInvoiceForm.Designer.cs">
+      <DependentUpon>accountantInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountantInvoiceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountantInvoiceList.Designer.cs">
+      <DependentUpon>accountantInvoiceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountantProfileShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountantProfileShow.Designer.cs">
+      <DependentUpon>accountantProfileShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accountantSalaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountantSalaryForm.Designer.cs">
+      <DependentUpon>accountantSalaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAccountantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAccountantForm.Designer.cs">
+      <DependentUpon>adminAccountantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAccountList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccountList.Designer.cs">
+      <DependentUpon>AdminAccountList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDepartment.Designer.cs">
+      <DependentUpon>AdminDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDepartmentaList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDepartmentaList.Designer.cs">
+      <DependentUpon>AdminDepartmentaList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctor.Designer.cs">
+      <DependentUpon>AdminDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorList.Designer.cs">
+      <DependentUpon>AdminDoctorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployee.Designer.cs">
+      <DependentUpon>AdminEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployeeList.Designer.cs">
+      <DependentUpon>AdminEmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPatient.Designer.cs">
+      <DependentUpon>AdminPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPatientList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPatientList.Designer.cs">
+      <DependentUpon>AdminPatientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminProfileview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminProfileview.Designer.cs">
+      <DependentUpon>adminProfileview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminRececptionistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminRececptionistForm.Designer.cs">
+      <DependentUpon>adminRececptionistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminReceptionistList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminReceptionistList.Designer.cs">
+      <DependentUpon>AdminReceptionistList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRoom.Designer.cs">
+      <DependentUpon>AdminRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRoomList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRoomList.Designer.cs">
+      <DependentUpon>AdminRoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorForm.Designer.cs">
+      <DependentUpon>DoctorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doctorPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctorPatient.Designer.cs">
+      <DependentUpon>doctorPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorProfileView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorProfileView.Designer.cs">
+      <DependentUpon>DoctorProfileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hmss.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hmss.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HMSSDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HMSSDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientDoclist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientDoclist.Designer.cs">
+      <DependentUpon>patientDoclist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientForm.Designer.cs">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientProfileView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientProfileView.Designer.cs">
+      <DependentUpon>PatientProfileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileForm.Designer.cs">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecepDoctorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecepDoctorList.Designer.cs">
+      <DependentUpon>RecepDoctorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepPatientList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecepPatientList.Designer.cs">
+      <DependentUpon>RecepPatientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepRoomList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecepRoomList.Designer.cs">
+      <DependentUpon>RecepRoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receptionistfrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionistfrom.Designer.cs">
+      <DependentUpon>Receptionistfrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecetionistProfileView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecetionistProfileView.Designer.cs">
+      <DependentUpon>RecetionistProfileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlAdminAddAccountant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddAccountant.Designer.cs">
+      <DependentUpon>UserControlAdminAddAccountant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlAdminAddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddDepartment.Designer.cs">
+      <DependentUpon>UserControlAdminAddDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlAdminAddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddReceptionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAdminAddRoom.Designer.cs">
+      <DependentUpon>UserControlAdminAddRoom.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accountantCreateInvociceForm.resx">
+      <DependentUpon>accountantCreateInvociceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accountantform.resx">
+      <DependentUpon>Accountantform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountantInvoiceForm.resx">
+      <DependentUpon>accountantInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountantInvoiceList.resx">
+      <DependentUpon>accountantInvoiceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountantProfileShow.resx">
+      <DependentUpon>accountantProfileShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accountantSalaryForm.resx">
+      <DependentUpon>accountantSalaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAccountantForm.resx">
+      <DependentUpon>adminAccountantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccountList.resx">
+      <DependentUpon>AdminAccountList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDepartment.resx">
+      <DependentUpon>AdminDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDepartmentaList.resx">
+      <DependentUpon>AdminDepartmentaList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctor.resx">
+      <DependentUpon>AdminDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctorList.resx">
+      <DependentUpon>AdminDoctorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEmployee.resx">
+      <DependentUpon>AdminEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEmployeeList.resx">
+      <DependentUpon>AdminEmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPatient.resx">
+      <DependentUpon>AdminPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPatientList.resx">
+      <DependentUpon>AdminPatientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminProfileview.resx">
+      <DependentUpon>adminProfileview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminRececptionistForm.resx">
+      <DependentUpon>adminRececptionistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminReceptionistList.resx">
+      <DependentUpon>AdminReceptionistList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRoom.resx">
+      <DependentUpon>AdminRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRoomList.resx">
+      <DependentUpon>AdminRoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorForm.resx">
+      <DependentUpon>DoctorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctorPatient.resx">
+      <DependentUpon>doctorPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorProfileView.resx">
+      <DependentUpon>DoctorProfileView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientDoclist.resx">
+      <DependentUpon>patientDoclist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientForm.resx">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientProfileView.resx">
+      <DependentUpon>PatientProfileView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileForm.resx">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecepDoctorList.resx">
+      <DependentUpon>RecepDoctorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepPatientList.resx">
+      <DependentUpon>RecepPatientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepRoomList.resx">
+      <DependentUpon>RecepRoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receptionistfrom.resx">
+      <DependentUpon>Receptionistfrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecetionistProfileView.resx">
+      <DependentUpon>RecetionistProfileView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddAccountant.resx">
+      <DependentUpon>UserControlAdminAddAccountant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddDepartment.resx">
+      <DependentUpon>UserControlAdminAddDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddDoctor.resx">
+      <DependentUpon>UserControlAdminAddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddEmployee.resx">
+      <DependentUpon>UserControlAdminAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddPatient.resx">
+      <DependentUpon>UserControlAdminAddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddReceptionist.resx">
+      <DependentUpon>UserControlAdminAddReceptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAdminAddRoom.resx">
+      <DependentUpon>UserControlAdminAddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="hmss.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>hmss.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hmss.dbml.layout">
+      <DependentUpon>hmss.dbml</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet.xsc">
+      <DependentUpon>HMSSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet.xss">
+      <DependentUpon>HMSSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet1.xsc">
+      <DependentUpon>HMSSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet1.xss">
+      <DependentUpon>HMSSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet10.xsc">
+      <DependentUpon>HMSSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet10.xss">
+      <DependentUpon>HMSSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet11.xsc">
+      <DependentUpon>HMSSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet11.xss">
+      <DependentUpon>HMSSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet12.xsc">
+      <DependentUpon>HMSSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet12.xss">
+      <DependentUpon>HMSSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet13.xsc">
+      <DependentUpon>HMSSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet13.xss">
+      <DependentUpon>HMSSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet2.xsc">
+      <DependentUpon>HMSSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet2.xss">
+      <DependentUpon>HMSSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet3.xsc">
+      <DependentUpon>HMSSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet3.xss">
+      <DependentUpon>HMSSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet4.xsc">
+      <DependentUpon>HMSSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet4.xss">
+      <DependentUpon>HMSSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet5.xsc">
+      <DependentUpon>HMSSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet5.xss">
+      <DependentUpon>HMSSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet6.xsc">
+      <DependentUpon>HMSSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet6.xss">
+      <DependentUpon>HMSSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet7.xsc">
+      <DependentUpon>HMSSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet7.xss">
+      <DependentUpon>HMSSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet8.xsc">
+      <DependentUpon>HMSSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet8.xss">
+      <DependentUpon>HMSSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet9.xsc">
+      <DependentUpon>HMSSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HMSSDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HMSSDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HMSSDataSet9.xss">
+      <DependentUpon>HMSSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroFramework.txt" />
+    <None Include="Resources\stethoscope_medium.jpg" />
+    <None Include="Resources\medi-banner.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

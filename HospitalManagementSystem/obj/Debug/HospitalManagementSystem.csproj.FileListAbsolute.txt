@@ -1,0 +1,217 @@
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+E:\Semester\Semester 8\C#\Final\Project Working file\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.cache
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CopyComplete
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+F:\EDU\C#\Project\BACKUP project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.cache
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CopyComplete
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+F:\EDU\C#\Project\TEsting project\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Accountantform.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorForm.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientForm.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ProfileForm.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Receptionistfrom.resources
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\Working main\wrsabit-hms-49a255c11364\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.doctorPatient.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Accountantform.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminAccountList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartment.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartmentaList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctor.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctorList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployee.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployeeList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatient.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatientList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminProfile.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminReceptionistList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoom.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoomList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.doctorPatient.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ProfileForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Receptionistfrom.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddAccountant.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDepartment.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDoctor.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddEmployee.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddPatient.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddReceptionist.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminAccountantForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminRececptionistForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddRoom.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantCreateInvociceForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantSalaryForm.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.patientDoclist.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepDoctorList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepPatientList.resources
+F:\SEMESTER\SETUP successfull\FINAL working after marging\wrsabit-hms-49a255c11364\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepRoomList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantCreateInvociceForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Accountantform.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantSalaryForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminAccountantForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminAccountList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartment.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartmentaList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctor.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctorList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployee.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployeeList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatient.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatientList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminRececptionistForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminReceptionistList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoom.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoomList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.doctorPatient.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.patientDoclist.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ProfileForm.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepDoctorList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepPatientList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepRoomList.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Receptionistfrom.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddAccountant.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDepartment.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDoctor.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddEmployee.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddPatient.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddReceptionist.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddRoom.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminProfileview.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorProfileView.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientProfileView.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecetionistProfileView.resources
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+F:\SEMESTER\SETUP successfull\Full and Final\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantProfileShow.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\MetroFramework.Design.dll
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\MetroFramework.dll
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\bin\Debug\MetroFramework.Fonts.dll
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantCreateInvociceForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Accountantform.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantInvoiceList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantProfileShow.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.accountantSalaryForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminAccountantForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminAccountList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartment.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDepartmentaList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctor.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminDoctorList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployee.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminEmployeeList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatient.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminPatientList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminProfileview.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.adminRececptionistForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminReceptionistList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoom.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AdminRoomList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.doctorPatient.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DoctorProfileView.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.patientDoclist.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientProfileView.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ProfileForm.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepDoctorList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepPatientList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecepRoomList.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Receptionistfrom.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RecetionistProfileView.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddAccountant.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDepartment.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddDoctor.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddEmployee.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddPatient.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddReceptionist.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.UserControlAdminAddRoom.resources
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.Cache
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+E:\Semester\Semester 8\C#\Final\Final project\hms\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb

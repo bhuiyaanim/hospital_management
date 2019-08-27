@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HMSSDataSet13" targetNamespace="http://tempuri.org/HMSSDataSet13.xsd" xmlns:mstns="http://tempuri.org/HMSSDataSet13.xsd" xmlns="http://tempuri.org/HMSSDataSet13.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HMSSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HMSSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HospitalManagementSystem.Properties.Settings.GlobalReference.Default.HMSSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DoctorTableAdapter" GeneratorDataComponentClassName="DoctorTableAdapter" Name="Doctor" UserDataComponentName="DoctorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HMSSConnectionString (Settings)" DbObjectName="HMSS.dbo.Doctor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DoctorName, DoctorEmail, DoctorAddress, DoctorPhone, DoctorDepartmentName, DoctorGender FROM dbo.Doctor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DoctorName" DataSetColumn="DoctorName" />
+              <Mapping SourceColumn="DoctorEmail" DataSetColumn="DoctorEmail" />
+              <Mapping SourceColumn="DoctorAddress" DataSetColumn="DoctorAddress" />
+              <Mapping SourceColumn="DoctorPhone" DataSetColumn="DoctorPhone" />
+              <Mapping SourceColumn="DoctorDepartmentName" DataSetColumn="DoctorDepartmentName" />
+              <Mapping SourceColumn="DoctorGender" DataSetColumn="DoctorGender" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HMSSDataSet13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="HMSSDataSet13" msprop:Generator_UserDSName="HMSSDataSet13">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Doctor" msprop:Generator_TableClassName="DoctorDataTable" msprop:Generator_TableVarName="tableDoctor" msprop:Generator_TablePropName="Doctor" msprop:Generator_RowDeletingName="DoctorRowDeleting" msprop:Generator_RowChangingName="DoctorRowChanging" msprop:Generator_RowEvHandlerName="DoctorRowChangeEventHandler" msprop:Generator_RowDeletedName="DoctorRowDeleted" msprop:Generator_UserTableName="Doctor" msprop:Generator_RowChangedName="DoctorRowChanged" msprop:Generator_RowEvArgName="DoctorRowChangeEvent" msprop:Generator_RowClassName="DoctorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DoctorName" msprop:Generator_ColumnVarNameInTable="columnDoctorName" msprop:Generator_ColumnPropNameInRow="DoctorName" msprop:Generator_ColumnPropNameInTable="DoctorNameColumn" msprop:Generator_UserColumnName="DoctorName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoctorEmail" msprop:Generator_ColumnVarNameInTable="columnDoctorEmail" msprop:Generator_ColumnPropNameInRow="DoctorEmail" msprop:Generator_ColumnPropNameInTable="DoctorEmailColumn" msprop:Generator_UserColumnName="DoctorEmail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoctorAddress" msprop:Generator_ColumnVarNameInTable="columnDoctorAddress" msprop:Generator_ColumnPropNameInRow="DoctorAddress" msprop:Generator_ColumnPropNameInTable="DoctorAddressColumn" msprop:Generator_UserColumnName="DoctorAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoctorPhone" msprop:Generator_ColumnVarNameInTable="columnDoctorPhone" msprop:Generator_ColumnPropNameInRow="DoctorPhone" msprop:Generator_ColumnPropNameInTable="DoctorPhoneColumn" msprop:Generator_UserColumnName="DoctorPhone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoctorDepartmentName" msprop:Generator_ColumnVarNameInTable="columnDoctorDepartmentName" msprop:Generator_ColumnPropNameInRow="DoctorDepartmentName" msprop:Generator_ColumnPropNameInTable="DoctorDepartmentNameColumn" msprop:Generator_UserColumnName="DoctorDepartmentName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoctorGender" msprop:Generator_ColumnVarNameInTable="columnDoctorGender" msprop:Generator_ColumnPropNameInRow="DoctorGender" msprop:Generator_ColumnPropNameInTable="DoctorGenderColumn" msprop:Generator_UserColumnName="DoctorGender">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

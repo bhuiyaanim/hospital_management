@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HMSS" Class="hmssDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-36ET37M;Initial Catalog=HMSS;Integrated Security=True" SettingsObjectName="HospitalManagementSystem.Properties.Settings" SettingsPropertyName="HMSSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Login" Member="Logins">
+    <Type Name="Login">
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserPassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserMail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserPhone" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserProfile" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patient" Member="Patients">
+    <Type Name="Patient">
+      <Column Name="PatientID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PatientName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientAge" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientGender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientDateOfBirth" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientPhone" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientPhoto" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="PatientBloodGrooup" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientRoomNo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientDateOfAdmission" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientDateOfRelease" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PatientDoctorName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Receptionist" Member="Receptionists">
+    <Type Name="Receptionist">
+      <Column Name="ReceptionistID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistPhone" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistAge" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistGender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistSalary" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistPhoto" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceptionistEmail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Room" Member="Rooms">
+    <Type Name="Room">
+      <Column Name="RoomNo" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="R_DateOfAdmition" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="R_DateOfRelease" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Salary" Member="Salaries">
+    <Type Name="Salary">
+      <Column Name="Grade" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Salary" Member="Salary1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Invoice" Member="Invoices">
+    <Type Name="Invoice">
+      <Column Name="InvoiceID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="InvoiceDate" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_PatientName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_DoctorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_RoomNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_DateOfAdmition" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_DateOfRelease" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_AdmissionCharge" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_ServiceCharge" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_DoctorFees" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_RoomChargePerDay" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_RoomForDays" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_Vat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_Discount" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="I_TotalBill" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="EmployeeID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeePhone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeSalary" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeAge" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="EmployeeGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeEmail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctor" Member="Doctors">
+    <Type Name="Doctor">
+      <Column Name="DoctorID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DoctorName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorEmail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorPhone" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorDepartmentName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorGender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorAge" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorSalary" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DoctorPhoto" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="DepartmentName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DepartmentDescription" Type="System.String" DbType="VarChar(5000) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Admin" Member="Admins">
+    <Type Name="Admin">
+      <Column Name="AdminID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AdminName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminPhone" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminPhoto" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Accountant" Member="Accountants">
+    <Type Name="Accountant">
+      <Column Name="AccountantID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccountantName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantPhone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantSalary" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantAge" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantPhoto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountantEmail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

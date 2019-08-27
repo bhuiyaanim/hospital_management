@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HMSSDataSet5" targetNamespace="http://tempuri.org/HMSSDataSet5.xsd" xmlns:mstns="http://tempuri.org/HMSSDataSet5.xsd" xmlns="http://tempuri.org/HMSSDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HMSSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HMSSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HospitalManagementSystem.Properties.Settings.GlobalReference.Default.HMSSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReceptionistTableAdapter" GeneratorDataComponentClassName="ReceptionistTableAdapter" Name="Receptionist" UserDataComponentName="ReceptionistTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HMSSConnectionString (Settings)" DbObjectName="HMSS.dbo.Receptionist" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ReceptionistID, ReceptionistName, ReceptionistAddress, ReceptionistPhone, ReceptionistAge, ReceptionistGender, ReceptionistSalary, ReceptionistEmail FROM dbo.Receptionist</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ReceptionistID" DataSetColumn="ReceptionistID" />
+              <Mapping SourceColumn="ReceptionistName" DataSetColumn="ReceptionistName" />
+              <Mapping SourceColumn="ReceptionistAddress" DataSetColumn="ReceptionistAddress" />
+              <Mapping SourceColumn="ReceptionistPhone" DataSetColumn="ReceptionistPhone" />
+              <Mapping SourceColumn="ReceptionistAge" DataSetColumn="ReceptionistAge" />
+              <Mapping SourceColumn="ReceptionistGender" DataSetColumn="ReceptionistGender" />
+              <Mapping SourceColumn="ReceptionistSalary" DataSetColumn="ReceptionistSalary" />
+              <Mapping SourceColumn="ReceptionistEmail" DataSetColumn="ReceptionistEmail" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HMSSDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="HMSSDataSet5" msprop:Generator_UserDSName="HMSSDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Receptionist" msprop:Generator_TableClassName="ReceptionistDataTable" msprop:Generator_TableVarName="tableReceptionist" msprop:Generator_TablePropName="Receptionist" msprop:Generator_RowDeletingName="ReceptionistRowDeleting" msprop:Generator_RowChangingName="ReceptionistRowChanging" msprop:Generator_RowEvHandlerName="ReceptionistRowChangeEventHandler" msprop:Generator_RowDeletedName="ReceptionistRowDeleted" msprop:Generator_UserTableName="Receptionist" msprop:Generator_RowChangedName="ReceptionistRowChanged" msprop:Generator_RowEvArgName="ReceptionistRowChangeEvent" msprop:Generator_RowClassName="ReceptionistRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceptionistID" msprop:Generator_ColumnVarNameInTable="columnReceptionistID" msprop:Generator_ColumnPropNameInRow="ReceptionistID" msprop:Generator_ColumnPropNameInTable="ReceptionistIDColumn" msprop:Generator_UserColumnName="ReceptionistID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistName" msprop:Generator_ColumnVarNameInTable="columnReceptionistName" msprop:Generator_ColumnPropNameInRow="ReceptionistName" msprop:Generator_ColumnPropNameInTable="ReceptionistNameColumn" msprop:Generator_UserColumnName="ReceptionistName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistAddress" msprop:Generator_ColumnVarNameInTable="columnReceptionistAddress" msprop:Generator_ColumnPropNameInRow="ReceptionistAddress" msprop:Generator_ColumnPropNameInTable="ReceptionistAddressColumn" msprop:Generator_UserColumnName="ReceptionistAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistPhone" msprop:Generator_ColumnVarNameInTable="columnReceptionistPhone" msprop:Generator_ColumnPropNameInRow="ReceptionistPhone" msprop:Generator_ColumnPropNameInTable="ReceptionistPhoneColumn" msprop:Generator_UserColumnName="ReceptionistPhone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistAge" msprop:Generator_ColumnVarNameInTable="columnReceptionistAge" msprop:Generator_ColumnPropNameInRow="ReceptionistAge" msprop:Generator_ColumnPropNameInTable="ReceptionistAgeColumn" msprop:Generator_UserColumnName="ReceptionistAge">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistGender" msprop:Generator_ColumnVarNameInTable="columnReceptionistGender" msprop:Generator_ColumnPropNameInRow="ReceptionistGender" msprop:Generator_ColumnPropNameInTable="ReceptionistGenderColumn" msprop:Generator_UserColumnName="ReceptionistGender">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistSalary" msprop:Generator_ColumnVarNameInTable="columnReceptionistSalary" msprop:Generator_ColumnPropNameInRow="ReceptionistSalary" msprop:Generator_ColumnPropNameInTable="ReceptionistSalaryColumn" msprop:Generator_UserColumnName="ReceptionistSalary">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceptionistEmail" msprop:Generator_ColumnVarNameInTable="columnReceptionistEmail" msprop:Generator_ColumnPropNameInRow="ReceptionistEmail" msprop:Generator_ColumnPropNameInTable="ReceptionistEmailColumn" msprop:Generator_UserColumnName="ReceptionistEmail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
